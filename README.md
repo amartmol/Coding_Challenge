@@ -66,29 +66,8 @@ Bonus points:
 
 Firstable, you have to copy all this Folder Structure to C:\ :
 
-	
-| Coding_Challenge (root)                                   |
-|-----------------------------------------------------------|
-|____ AdrianMartinezMolina                                  |
-|        ____ PDI Batch Process                             |
-|              ____ 0_Coding_Challenge.kjb                  |
-|         	   ____ 1_XML_to_CSV.ktr                        |
-|              ____ 2_CSV_to_MySQL_DIMENSIONS.ktr           |
-|              ____ 3_CSV_to_MySQL_FACTS.ktr                |
-|        ____ Resources                                     |
-|              ____ Error_files                             |
-|              ____ Sources                                 |
-|                  ____ json                                |
-|                      ____ events_json_20171127000000.json |
-|                  ____ xml                                 |
-|                      ____ events_xml_20171127000000.xml   |
-|                      ____ events_xml.xsd                  |
-|              ____ Staging                                 |
-|                  ____ csv                                 |
-|              ____ Target                                  |
-|                  ____ MySQL                               |
-|                      ____ ddl_coding_challenge_MySQL.sql  |
-	
+![alt text](http://staticforms.net/ftp/img/estructura_carpetas.PNG "Folder Structure")
+
 
 Second, if you have a MySQL Server and a root database user then you must execute the file "ddl_coding_challenge_MySQL.sql". For that, you must assure that bin folder of your MySQL Server Installation is embededd in PATH environment system variable. Only then you will be able to execute this command via Windows Command Line):
 
