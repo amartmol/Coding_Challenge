@@ -45,13 +45,6 @@ A ETL process parses the XML data and store it in different tabular CSV files in
 
 As last step, it moves all CSV information files to a MySQL database (called `Coding.challenge`) where a datawarehouse tables have been designed as a BI traditional star model. First we load dimension tables (user_dim, action_dim, product_dim) and second the facts (events_fact table).
 
-• You need to source and destination data files and the PDI package.
-• The ETL job must handle failure rolling back the changes and send a success/failure notification to an email address.
-• A second ETL must move normalized data to some datawarehouse csv files using a schema optimized for reporting.
-Bonus points:
-• You are free to add more attributes to the JSON source to build a richer table structure.
-• ETL could process correct records and derive incorrect ones to an error file
-
 
 ## Deployment
 
