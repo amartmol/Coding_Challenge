@@ -67,26 +67,26 @@ Bonus points:
 Firstable, you have to copy all this Folder Structure to C:\ :
 
 	
-||_ Coding_Challenge (root)                         |
-|   |_ AdrianMartinezMolina                           |
-|        |_  PDI Batch Process                           |
-|              |_ 0_Coding_Challenge.kjb                  |
-|         	   |_ 1_XML_to_CSV.ktr                        |
-|              |_ 2_CSV_to_MySQL_DIMENSIONS.ktr           |
-|              |_ 3_CSV_to_MySQL_FACTS.ktr                |
-|        |_ Resources                                   |
-|              |_ Error_files                             |
-|              |_ Sources                                 |
-|                  |_ json                                |
-|                      |_ events_json_20171127000000.json |
-|                  |_ xml                                 |
-|                      |_ events_xml_20171127000000.xml   |
-|                      |_ events_xml.xsd                  |
-|              |_ Staging                                 |
-|                  |_ csv                                 |
-|              |_ Target                                  |
-|                  |_ MySQL                               |
-|                      |_ ddl_coding_challenge_MySQL.sql  |
+|_ Coding_Challenge (root)                         |
+|   _ AdrianMartinezMolina                           |
+|        _ PDI Batch Process                           |
+|              _ 0_Coding_Challenge.kjb                  |
+|         	   _ 1_XML_to_CSV.ktr                        |
+|              _ 2_CSV_to_MySQL_DIMENSIONS.ktr           |
+|              _ 3_CSV_to_MySQL_FACTS.ktr                |
+|        _ Resources                                   |
+|              _ Error_files                             |
+|              _ Sources                                 |
+|                  _ json                                |
+|                      _ events_json_20171127000000.json |
+|                  _ xml                                 |
+|                      _ events_xml_20171127000000.xml   |
+|                      _ events_xml.xsd                  |
+|              _ Staging                                 |
+|                  _ csv                                 |
+|              _ Target                                  |
+|                  _ MySQL                               |
+|                      _ ddl_coding_challenge_MySQL.sql  |
 	
 
 Second, if you have a MySQL Server and a root database user then you must execute the file "ddl_coding_challenge_MySQL.sql". For that, you must assure that bin folder of your MySQL Server Installation is embededd in PATH environment system variable. Only then you will be able to execute this command via Windows Command Line):
