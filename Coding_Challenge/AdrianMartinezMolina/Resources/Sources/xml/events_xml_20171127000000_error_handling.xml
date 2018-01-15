@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="events_xml.xsd">
+  <event id="1" action="make_login" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:05:00</timestamp>
+	 <userid>U1</userid>
+	 <username>User1</username>
+  </event>
+  <event id="2" action="browse_categories" channel="Ecom Mobile App">
+	 <value>C1</value>
+	 <timestamp>2017/11/27 0:05:20</timestamp>
+	 <userid>U1</userid>
+	 <username>User1</username>
+  </event>
+  <event id="3" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:07:05</timestamp>
+	 <userid>U1</userid>
+	 <username>User1</username>
+  </event>  
+  <event id="4" action="make_login" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:15:00</timestamp>
+	 <userid>U2</userid>
+	 <username>User2</username>
+  </event>  
+  <event id="5" action="view_product" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P3</productcode>
+		<productdescription>Product 3</productdescription>
+		<category>C3</category>
+		<categorydescription>Category 3</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:15:08</timestamp>
+	 <userid>U2</userid>
+	 <username>User2</username>
+  </event>  
+  <event id="6" action="view_recommended_products" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P31</productcode>
+		<productdescription>Product 31</productdescription>
+		<category>C3</category>
+		<categorydescription>Category 3</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:16:59</timestamp>
+	 <userid>U2</userid>
+	 <username>User2</username>
+  </event>  
+  <event id="7" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:18:30</timestamp>
+	 <userid>U2</userid>
+	 <username>User2</username>
+  </event>  
+  <event id="8" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:20:00</timestamp>
+	 <userid>U1</userid>
+	 <username>User1</username>
+  </event>    
+  <event id="9" action="view_product" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P1</productcode>
+		<productdescription>Product 1</productdescription>
+		<category>C1</category>
+		<categorydescription>Category 1</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:20:10</timestamp>
+	 <userid>U1</userid>
+	 <username>User1</username>
+  </event>   
+  <event id="10" action="make_login" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:22:09</timestamp>
+	 <userid>U3</userid>
+	 <username>User3</username>
+  </event>    
+  <event id="11" action="view_product" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P2</productcode>
+		<productdescription>Product 2</productdescription>
+		<category>C2</category>
+		<categorydescription>Category 2</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:22:21</timestamp>
+	 <userid>U3</userid>
+	 <username>User3</username>
+  </event>   
+  <event id="12" action="add_to_cart" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P2</productcode>
+		<productdescription>Product 2</productdescription>
+		<category>C2</category>
+		<categorydescription>Category 2</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:23:31</timestamp>
+	 <userid>U3</userid>
+	 <username>User3</username>
+  </event> 
+  <event id="13" action="make_purchase" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P2</productcode>
+		<productdescription>Product 2</productdescription>
+		<category>C2</category>
+		<categorydescription>Category 2</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:23:50</timestamp>
+	 <userid>U3</userid>
+	 <username>User3</username>
+  </event> 
+  <event id="14" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:24:00</timestamp>
+	 <userid>U1</userid>
+	 <username>User1</username>
+  </event>  
+  <event id="15" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:30:09</timestamp>
+	 <userid>U3</userid>
+	 <username>User3</username>
+  </event>    
+  <event id="16" action="generate_problems" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:30:10</timestamp>
+	 <userid>U4</userid>
+	 <username>User4</username>
+  </event>  
+  <event id="17" action="view_product" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P2</productcode>
+		<productdescription>Product 2</productdescription>
+		<category>C2</category>
+		<categorydescription>Category 2</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:30:17</timestamp>
+	 <userid>U4</userid>
+	 <username>User4</username>
+  </event>   
+  <event id="18" action="add_to_cart" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P2</productcode>
+		<productdescription>Product 2</productdescription>
+		<category>C2</category>
+		<categorydescription>Category 2</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:32:10</timestamp>
+	 <userid>U4</userid>
+	 <username>User4</username>
+  </event> 
+  <event id="19" action="make_purchase" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P2</productcode>
+		<productdescription>Product 2</productdescription>
+		<category>C2</category>
+		<categorydescription>Category 2</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:32:20</timestamp>
+	 <userid>U4</userid>
+	 <username>User4</username>
+  </event> 
+  <event id="20" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:32:50</timestamp>
+	 <userid>U6</userid>
+	 <username>User6</username>
+  </event> 
+  <event id="21" action="make_login" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:33:40</timestamp>
+	 <userid>U7</userid>
+	 <username>User7</username>
+  </event> 
+ <event id="22" action="add_to_cart" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P1</productcode>
+		<productdescription>Product 1</productdescription>
+		<category>C1</category>
+		<categorydescription>Category 1</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:34:01</timestamp>
+	 <userid>U5</userid>
+	 <username>User5</username>
+  </event>   
+  <event id="23" action="make_purchase" channel="Ecom Mobile App">
+	 <product>
+		<productcode>P1</productcode>
+		<productdescription>Product 1</productdescription>
+		<category>C1</category>
+		<categorydescription>Category 1</categorydescription>
+	 </product>
+	 <timestamp>2017/11/27 0:37:20</timestamp>
+	 <userid>U5</userid>
+	 <username>User5</username>
+  </event> 
+  <event id="24" action="make_logout" channel="Ecom Mobile App">
+	 <value>true</value>
+	 <timestamp>2017/11/27 0:37:30</timestamp>
+	 <userid>U5</userid>
+	 <username>User5</username>
+  </event>
+</events>
