@@ -66,9 +66,9 @@ Bonus points:
 
 Firstable, you have to copy all this Folder Structure to C:\ :
 
-|_ Coding_Challenge (root)
-  |_ AdrianMartinezMolina
-  |_ PDI Batch Process
+Coding_Challenge (root)
+	AdrianMartinezMolina
+	PDI Batch Process
 			0_Coding_Challenge.kjb
 			1_XML_to_CSV.ktr
 			2_CSV_to_MySQL_DIMENSIONS.ktr
