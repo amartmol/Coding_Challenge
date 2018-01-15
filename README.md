@@ -1,6 +1,6 @@
 # Coding_Challenge
 
-As title says, Coding Challenge it's about facing a problem and trying to solve this. 
+As title says, Coding Challenge it's about facing a problem and trying to solve it. 
 In this case, let's imagine that we are at 27/11/2017, we are on CyberMonday. An eCommerce mobile application is emitting stream of json format tagging messages containing behavioural
 information as consumers use the app.
 
